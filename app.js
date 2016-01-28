@@ -1,5 +1,25 @@
 // Add code here to make the code below work. Submit a pull request when you're finished.
+var Library = function () {
+  this.books = [];
 
+  this.checkOutBook = function(person, bookTitle) {
+
+  };
+
+  this.returnBook = function(person, bookTitle) {
+
+  };
+};
+
+var Book = function (title) {
+  this.title = title;
+  this.checkedOut = false;
+}
+
+var Person = function (name) {
+  this.name = name;
+  this.books = [];
+}
 
 var library = new Library();
 
